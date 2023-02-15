@@ -4,9 +4,6 @@
 [submodule "config/i3/catppuccin"]
 	path = config/i3/catppuccin
 	url = git@github.com:catppuccin/i3.git
-[submodule "config/polybar/catppuccin"]
-	path = config/polybar/catppuccin
-	url = git@github.com:catppuccin/polybar.git
 [submodule "config/rofi/catppuccin"]
 	path = config/rofi/catppuccin
 	url = git@github.com:catppuccin/rofi.git

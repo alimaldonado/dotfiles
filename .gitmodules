@@ -10,3 +10,6 @@
 [submodule "config/rofi/catppuccin"]
 	path = config/rofi/catppuccin
 	url = git@github.com:catppuccin/rofi.git
+[submodule "config/zathura/catppuccin"]
+	path = config/zathura/catppuccin
+	url = git@github.com:catppuccin/zathura.git

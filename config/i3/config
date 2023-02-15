@@ -2,7 +2,7 @@
 # Config created by Keyitdev https://www.github.com/keyitdev/dotfiles
 # Copyright (C) 2022 Keyitdev
 # includes catppuccin color theme
-include ./colors.conf
+include ./catppuccin-frappe.conf 
 # set mod
 set $mod Mod4
 
@@ -83,8 +83,8 @@ bindsym $mod+w layout tabbed
 bindsym $mod+e layout toggle split
 
 # save and restore layout with i3-resurrect
-bindsym $mod+t  exec --no-startup-id i3-resurrect restore
-bindsym $mod+y  exec --no-startup-id i3-resurrect save
+# bindsym $mod+t  exec --no-startup-id i3-resurrect restore
+# bindsym $mod+y  exec --no-startup-id i3-resurrect save
 
 # toggle tiling / floating
 bindsym $mod+Shift+space floating toggle
@@ -113,12 +113,12 @@ bindsym $mod+b move workspace to output right
 #bindsym $mod+d focus child
 
 # run rofi programs
-bindsym $mod+a exec "rofi -show window -no-default-config -config ~/.config/rofi/main.rasi"
-bindsym $mod+d exec "rofi -show drun -no-default-config -config ~/.config/rofi/main.rasi"
-bindsym $mod+s exec "rofi -show drun -no-default-config -config ~/.config/rofi/full_screen.rasi"
-bindsym $mod+z exec "rofi -show  -modi ':rofi-bookmarks' -no-default-config -config ~/.config/rofi/main.rasi"
-bindsym $mod+x exec "rofi-powermenu"
-bindsym $mod+c exec "rofi-screenshot"
+bindsym $mod+a exec "rofi -show window"
+bindsym $mod+d exec "rofi -show drun"
+# bindsym $mod+s exec "rofi -show drun -no-default-config -config ~/.config/rofi/full_screen.rasi"
+# bindsym $mod+z exec "rofi -show  -modi ':rofi-bookmarks' -no-default-config -config ~/.config/rofi/main.rasi"
+# bindsym $mod+x exec "rofi-powermenu"
+# bindsym $mod+c exec "rofi-screenshot"
 
 # take a screenshot
 bindsym Pause exec screenshot -sa
@@ -230,7 +230,7 @@ bindsym $mod+r mode "resize"
 ### BODERS ###
 
 #border width
-default_border pixel 2
+default_border pixel 4
 
 ### SETTINGS FOR i3 BAR ###
 

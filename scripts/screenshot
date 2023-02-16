@@ -27,12 +27,12 @@ get_area(){
     wh="${w}x${h}"
 }
 screenshot_selected_area(){
-    ffcast -q -g "$(slop)" png "$screenshot_directory/$date.png"
+    scrot -s "$screenshot_directory/$date.png"
     xclip -selection clipboard -t image/png "$screenshot_directory/$date.png"
     notify-send -i "$screenshot_directory/$date.png" "Screenshot" "Area screenshot taken"
 }
 screenshot_full_screen(){
-    ffcast -q png "$screenshot_directory/$date.png"
+    scrot "$screenshot_directory/$date.png"
     xclip -selection clipboard -t image/png "$screenshot_directory/$date.png"
     notify-send -i "$screenshot_directory/$date.png" "Screenshot" "Full screen screenshot taken"
 }

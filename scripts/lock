@@ -13,6 +13,6 @@ i3lock -n --force-clock -F -i ~/Pictures/wallpapers/lockscreen.png -e \
 --verif-text="Verifying" --greeter-text="" --wrong-text="Wrong Password!" --noinput-text="No input" \
 --verif-font="Roboto mono"  --greeter-font="Roboto mono" --wrong-font="Roboto mono" \
 --verif-size=35 --greeter-size=35 --wrong-size=35 \
---verif-pos="960:540" --greeter-pos="960:600" --wrong-pos="960:540" \
+--verif-pos="960:700" --greeter-pos="960:680" --wrong-pos="960:700" --status-pos="960:700" \
 --verif-color="$green" --greeter-color="$font" --wrong-color="$red" \
 --bar-indicator --bar-direction=0 --bar-step=10 --bar-max-height=10 --bar-base-width=10 --bar-total-width=1920 --bar-color=00000000 --bar-pos="0:1070"  

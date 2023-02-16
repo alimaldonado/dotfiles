@@ -1,8 +1,8 @@
 #!/bin/sh
 
-font="dedede"
-green="9ece6a"
-red="db4b4b"
+font="c6d0f5"
+green="a6d189"
+red="e78284"
 
 i3lock -n --force-clock -F -i ~/Pictures/wallpapers/lockscreen.png -e \
 --refresh-rate=1 --line-uses-inside --pointer=default --pass-media-keys --pass-volume-keys --pass-screen-keys \

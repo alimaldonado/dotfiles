@@ -1,7 +1,3 @@
-# Documentation: https://i3wm.org/docs/userguide.html
-# Config created by Keyitdev https://www.github.com/keyitdev/dotfiles
-# Copyright (C) 2022 Keyitdev
-# includes catppuccin color theme
 include ./catppuccin-frappe.conf 
 # set mod
 set $mod Mod4
@@ -16,7 +12,6 @@ exec_always --no-startup-id picom &
 
 # run mpd
 exec_always --no-startup-id mpd &
-
 # run dunst
 exec_always --no-startup-id dunst &
 
@@ -96,7 +91,7 @@ bindsym $mod+space focus mode_toggle
 bindsym $mod+i exec lock
 
 # monitor settings
-bindsym $mod+n exec xrandr --auto --output eDP-1 --mode 1920x1080 --right-of HDMI-1 && i3-msg restart &
+bindsym $mod+n exec xrandr --auto --output eDP-1 --mode 1920x1080 --left-of HDMI-1 && i3-msg restart &
 bindsym $mod+m exec xrandr --auto --output HDMI-1 --off && i3-msg restart &
 
 # toggle polybar
@@ -230,7 +225,7 @@ bindsym $mod+r mode "resize"
 ### BODERS ###
 
 #border width
-default_border pixel 4
+default_border pixel 3
 
 ### SETTINGS FOR i3 BAR ###
 

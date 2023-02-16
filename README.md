@@ -7,7 +7,7 @@ Inspired by Keyitdev/dotfiles, including Catppuccin themes.
 ## Install dependencies
 ```bash
 sudo apt update
-sudo apt install acpi alsa-utils curl pulseaudio xorg alacritty btop dunst feh firefox i3 libnotify light mpc mpd ncmpcpp nemo neofetch neovim papirus-icon-theme picom polybar ranger rofi scrot slop xclip zathura fontconfig
+sudo apt install acpi alsa-utils curl pulseaudio xorg alacritty btop dunst feh firefox i3 libnotify light mpc mpd ncmpcpp nemo neofetch neovim papirus-icon-theme picom polybar ranger rofi scrot slop xclip zathura fontconfig ffmpeg
 ```
 
 ## Install i3lock-color
@@ -41,7 +41,7 @@ sudo cp -r ./scripts/* /usr/local/bin
 - Config
 
 ```bash
-cp config/* ~/.config/
+cp -r config/* ~/.config/
 # install catpuccin for rofi. Follow original repo instructions
 cd ~/.config/rofi/catppuccin/basic/
 bash install.sh

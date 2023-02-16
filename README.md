@@ -34,7 +34,9 @@ sudo cp -r ./fonts/* /usr/share/fonts
 fc-cache -v -f
 ```
 - Scripts
+```
 sudo cp -r ./scripts/* /usr/local/bin
+```
 
 - Config
 

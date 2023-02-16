@@ -26,7 +26,7 @@ exec_always --no-startup-id $HOME/.config/polybar/launch.sh
 exec_always --no-startup-id battery&
 
 # start i3 components
-exec --no-startup-id xss-lock --transfer-sleep-lock -- i3lock --nofork
+exec --no-startup-id xss-lock --transfer-sleep-lock -- lock --nofork
 exec --no-startup-id nm-applet
 
 ### Shortcuts ###
@@ -237,7 +237,7 @@ bar {
 ### SETTINGS FOR i3-gaps ###
 
 # Set inner/outer gaps
-gaps inner 8
+gaps inner 13
 gaps outer 0
 
 # Smart gaps (gaps used if only more than one container on the workspace)

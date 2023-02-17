@@ -27,6 +27,7 @@ exec_always --no-startup-id battery&
 
 # start i3 components
 exec --no-startup-id xss-lock --transfer-sleep-lock -- lock --nofork
+exec --no-startup-id xss-lock -- ~/.config/i3/lock.sh
 exec --no-startup-id nm-applet
 
 ### Shortcuts ###

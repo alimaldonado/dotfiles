@@ -7,7 +7,7 @@ Inspired by Keyitdev/dotfiles, including Catppuccin themes.
 ## Install dependencies
 ```bash
 sudo apt update
-sudo apt install git acpi alsa-utils curl pulseaudio xorg alacritty btop dunst feh firefox i3 libnotify light mpc mpd ncmpcpp nemo neofetch neovim papirus-icon-theme picom polybar ranger rofi scrot slop xclip zathura fontconfig ffmpeg
+sudo apt install git sddm acpi alsa-utils curl pulseaudio xorg alacritty btop dunst feh firefox i3 libnotify-bin light mpc mpd ncmpcpp nemo neofetch neovim papirus-icon-theme picom polybar ranger rofi scrot slop xclip zathura fontconfig ffmpeg zip unzip
 ```
 
 ## Install i3lock-color, Rofi Catppuccin, GTK Catppuccin

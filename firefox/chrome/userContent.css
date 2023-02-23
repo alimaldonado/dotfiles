@@ -1,0 +1,21 @@
+@-moz-document url-prefix("about:reader") {
+  body.dark {
+    color: #c6d0f5 !important;
+    background-color: #292c3c !important;
+  }
+  body.light {
+    color: #4c4f69 !important;
+    background-color: #dce0e8 !important;
+  }
+  body.sepia {
+    color: #4c4f69 !important;
+    background-color: #f2d5cf !important;
+  }
+
+  body.serif {
+    font-family: serif !important;
+  }
+  body.sans-serif {
+    font-family: sans-serif !important;
+  }
+}

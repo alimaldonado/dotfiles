@@ -1,0 +1,4 @@
+https:safebrowsing.googleapis.com:443:.:^firstPartyDomain=safebrowsing.86868755-6b82-4842-b301-72671a0db32e.mozilla:3	4	19411	https:safebrowsing.googleapis.com:443:safebrowsing.googleapis.com:443::n:1679755225:h3:y:1676747003:n:^firstPartyDomain=safebrowsing.86868755-6b82-4842-b301-72671a0db32e.mozilla:|n:y:
+https:versioncheck-bg.addons.mozilla.org:443:.::3	0	19410	https:versioncheck-bg.addons.mozilla.org:443:versioncheck-bg.addons.mozilla.org:443::n:1677078786:h3:n:1677078604:n::|n:y:
+https:r2---sn-a5meknde.gvt1.com:443:.::3	0	19410	https:r2---sn-a5meknde.gvt1.com:443:r2---sn-a5meknde.gvt1.com:443::n:1677098320:h3:n:1677078604:n::|n:y:
+https:redirector.gvt1.com:443:.::3	0	19410	https:redirector.gvt1.com:443:redirector.gvt1.com:443::n:1679690287:h3:y:1677078604:n::|n:y:
